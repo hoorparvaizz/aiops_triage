@@ -1,0 +1,10 @@
+2025-09-01T10:00:12Z [orders-service] ERROR: Database connection timeout after 30s (db=orders-db)
+2025-09-01T10:00:15Z [orders-service] ERROR: Database connection timeout after 30s (db=orders-db)
+2025-09-01T10:01:03Z [auth-service] WARN: Multiple failed login attempts detected for user_id=1234
+2025-09-01T10:02:45Z [payments-service] ERROR: Payment gateway timeout (provider=stripe)
+2025-09-01T10:03:10Z [orders-service] ERROR: Database connection timeout after 30s (db=orders-db)
+2025-09-01T10:04:22Z [frontend] ERROR: API /api/v1/orders failed with 500 status
+2025-09-01T10:05:19Z [auth-service] ERROR: Token signature validation failed for user_id=5678
+2025-09-01T10:06:58Z [payments-service] WARN: High latency detected when calling provider=stripe
+2025-09-01T10:07:32Z [frontend] WARN: Slow response for /api/v1/payments (latency=1900ms)
+2025-09-01T10:08:44Z [orders-service] ERROR: Database connection timeout after 30s (db=orders-db)
